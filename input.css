@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#menu::-webkit-scrollbar{
+  display: none;
+}
+.menu{
+  @apply flex flex-col items-center justify-center hover:border-b-2 border-black
+}
