@@ -6,5 +6,8 @@
   display: none;
 }
 .menu{
-  @apply flex flex-col items-center justify-center hover:border-b-2 border-black
+  @apply flex flex-col items-center justify-center border-b-2 hover:border-b-2 border-body_clr hover:border-black 
+}
+.hover{
+  @apply text-sm p-2 font-semibold text-font_clr hover:text-dip_font_clr hover:bg-gray-200 rounded-md
 }

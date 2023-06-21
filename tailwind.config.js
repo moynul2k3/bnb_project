@@ -18,6 +18,7 @@ module.exports = {
       },
       width: {
         "menu": "147rem",
+        "footer_menu": "100rem",
       },
       screens: {
         'sm': { 'min': '350px', 'max': '580px' },
