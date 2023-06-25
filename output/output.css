@@ -635,10 +635,6 @@ video {
   margin-top: 1rem;
 }
 
-.block {
-  display: block;
-}
-
 .flex {
   display: flex;
 }
@@ -697,10 +693,6 @@ video {
 
 .h-full {
   height: 100%;
-}
-
-.w-1\/2 {
-  width: 50%;
 }
 
 .w-10 {
@@ -792,10 +784,6 @@ video {
   justify-content: flex-start;
 }
 
-.justify-end {
-  justify-content: flex-end;
-}
-
 .justify-center {
   justify-content: center;
 }
@@ -865,10 +853,6 @@ video {
   overflow-x: auto;
 }
 
-.overscroll-contain {
-  overscroll-behavior: contain;
-}
-
 .rounded-full {
   border-radius: 9999px;
 }
@@ -895,10 +879,6 @@ video {
 
 .border-t-2 {
   border-top-width: 2px;
-}
-
-.border-t {
-  border-top-width: 1px;
 }
 
 .border-font_clr {
@@ -959,10 +939,6 @@ video {
   padding: 1.25rem;
 }
 
-.p-10 {
-  padding: 2.5rem;
-}
-
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -993,46 +969,21 @@ video {
   padding-bottom: 0.25rem;
 }
 
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.px-16 {
-  padding-left: 4rem;
-  padding-right: 4rem;
-}
-
-.py-0 {
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-}
-
-.py-5 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
 }
 
 .pb-10 {
   padding-bottom: 2.5rem;
 }
 
-.pb-2 {
-  padding-bottom: 0.5rem;
+.pb-16 {
+  padding-bottom: 4rem;
 }
 
-.pb-20 {
-  padding-bottom: 5rem;
+.pb-2 {
+  padding-bottom: 0.5rem;
 }
 
 .ps-1 {
@@ -1040,9 +991,9 @@ video {
           padding-inline-start: 0.25rem;
 }
 
-.ps-16 {
-  -webkit-padding-start: 4rem;
-          padding-inline-start: 4rem;
+.ps-10 {
+  -webkit-padding-start: 2.5rem;
+          padding-inline-start: 2.5rem;
 }
 
 .ps-2 {
@@ -1050,30 +1001,8 @@ video {
           padding-inline-start: 0.5rem;
 }
 
-.ps-5 {
-  -webkit-padding-start: 1.25rem;
-          padding-inline-start: 1.25rem;
-}
-
 .pt-3 {
   padding-top: 0.75rem;
-}
-
-.pb-52 {
-  padding-bottom: 13rem;
-}
-
-.pb-3 {
-  padding-bottom: 0.75rem;
-}
-
-.pb-16 {
-  padding-bottom: 4rem;
-}
-
-.ps-10 {
-  -webkit-padding-start: 2.5rem;
-          padding-inline-start: 2.5rem;
 }
 
 .text-icon_txt {
@@ -1254,6 +1183,15 @@ video {
   color: rgb(74 74 74 / var(--tw-text-opacity));
 }
 
+.hover\:text-font_clr:hover {
+  --tw-text-opacity: 1;
+  color: rgb(142 141 141 / var(--tw-text-opacity));
+}
+
+.hover\:underline:hover {
+  text-decoration-line: underline;
+}
+
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -1270,21 +1208,6 @@ video {
 
   .sm\:hidden {
     display: none;
-  }
-
-  .sm\:ps-5 {
-    -webkit-padding-start: 1.25rem;
-            padding-inline-start: 1.25rem;
-  }
-
-  .sm\:ps-1 {
-    -webkit-padding-start: 0.25rem;
-            padding-inline-start: 0.25rem;
-  }
-
-  .sm\:ps-10 {
-    -webkit-padding-start: 2.5rem;
-            padding-inline-start: 2.5rem;
   }
 }
 
@@ -1345,13 +1268,7 @@ video {
     padding-right: 3.5rem;
   }
 
-  .lg\:px-16 {
-    padding-left: 4rem;
-    padding-right: 4rem;
-  }
-
-  .lg\:py-10 {
-    padding-top: 2.5rem;
+  .lg\:pb-10 {
     padding-bottom: 2.5rem;
   }
 
@@ -1359,17 +1276,8 @@ video {
     padding-bottom: 0.5rem;
   }
 
-  .lg\:pb-10 {
-    padding-bottom: 2.5rem;
-  }
-
   .lg\:pb-5 {
     padding-bottom: 1.25rem;
-  }
-
-  .lg\:ps-16 {
-    -webkit-padding-start: 4rem;
-            padding-inline-start: 4rem;
   }
 }
 
@@ -1394,11 +1302,11 @@ video {
     display: none;
   }
 
-  .xl\:w-6\/12 {
+  .xl\:w-1\/2 {
     width: 50%;
   }
 
-  .xl\:w-1\/2 {
+  .xl\:w-6\/12 {
     width: 50%;
   }
 
@@ -1420,38 +1328,20 @@ video {
     padding-right: 4rem;
   }
 
-  .xl\:py-16 {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+  .xl\:pb-10 {
+    padding-bottom: 2.5rem;
   }
 
   .xl\:pb-2 {
     padding-bottom: 0.5rem;
   }
 
-  .xl\:ps-10 {
-    -webkit-padding-start: 2.5rem;
-            padding-inline-start: 2.5rem;
-  }
-
-  .xl\:pb-16 {
-    padding-bottom: 4rem;
-  }
-
-  .xl\:pb-1 {
-    padding-bottom: 0.25rem;
-  }
-
-  .xl\:pb-10 {
-    padding-bottom: 2.5rem;
-  }
-
   .xl\:pb-5 {
     padding-bottom: 1.25rem;
   }
 
-  .xl\:ps-16 {
-    -webkit-padding-start: 4rem;
-            padding-inline-start: 4rem;
+  .xl\:ps-10 {
+    -webkit-padding-start: 2.5rem;
+            padding-inline-start: 2.5rem;
   }
 }
