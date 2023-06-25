@@ -18,13 +18,13 @@ module.exports = {
       },
       width: {
         "menu": "147rem",
-        "footer_menu": "100rem",
+        "footer_menu": "90rem",
       },
       screens: {
         'sm': { 'min': '350px', 'max': '580px' },
-        'md': { 'min': '580px', 'max': '720px' },
-        'lg': { 'min': '720px', 'max': '1020px' },
-        'xl': { 'min': '1020px' },
+        'md': { 'min': '580px', 'max': '755px' },
+        'lg': { 'min': '755px', 'max': '1025px' },
+        'xl': { 'min': '1025px' },
         
     }
     },
